@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercadinho Cidade</title>
+    <meta
+      name="keywords"
+      content="mercado,compras,mercadinho cidade,loja,mercadinho"
+    />
+   <meta name="author" content="Victor Kawan" />
+    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="theme-color" content="#393C73" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="" />
+    </header>
+    <section id="inicio">
+      <div id="textoIntrodutivo">
+        <h1>
+          Bem vindo ao <br />
+          Mercadinho Cidade
+        </h1>
+        <h4>Tudo que você precisa em um só lugar</h4>
+      </div>
+      <div id="slide">
+        <input type="radio" name="radio" id="s1" checked />
+        <input type="radio" name="radio" id="s2" />
+        <input type="radio" name="radio" id="s3" />
+
+        <div id="slider">
+          <div class="slides">
+            <div class="slideContent">
+              <div class="slideImage slide1"></div>
+              <div class="slideDescription">
+                <h3>Segunda e Terça</h3>
+                <h1>InterFrutas</h1>
+                <p>Frutas, Legumes e Verduras</p>
+              </div>
+            </div>
+          </div>
+          <div class="slides">
+            <div class="slideContent">
+              <div class="slideImage slide2"></div>
+              <div class="slideDescription">
+                <h3>Quarta e Quinta</h3>
+                <h1>InterCarnes</h1>
+                <p>Carnes e Frios</p>
+              </div>
+            </div>
+          </div>
+          <div class="slides">
+            <div class="slideContent">
+              <div class="slideImage slide3"></div>
+              <div class="slideDescription">
+                <h3></h3>
+                <h1>Boteco Cidade</h1>
+                <p>Cervejas, Vinhos e Vodkas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Horário -->
+      <div id="horario">
+        <div id="funcionamento">
+          <div>
+            <h3>Estamos abertos</h3>
+            <p>07:00-21:00</p>
+          </div>
+          <div>
+            <img src="img/row.png" alt="" />
+          </div>
+        </div>
+        <div id="horarioSemanal">
+          <h3>HORÁRIO</h3>
+          <p>SEGUNDA À SÁBADO</p>
+          <p>07:00-21:00</p>
+          <h6 class="divisor"></h6>
+          <p>DOMINGO</p>
+          <p>07:00-20:00</p>
+        </div>
+      </div>
+    </section>
+    <section id="encarte">
+      <h1>Encarte</h1>
+      <p>Veja as novidades que preparamos para você aproveitar</p>
+      <div id="slideEncarte">
+        <div id="sliderEncarte">
+          <div class="slidesEncarte j1">
+            <img src="img/IMG3.jpg" alt="" />
+          </div>
+          <div class="slidesEncarte j2">
+            <img src="img/IMG2.jpg" alt="" />
+          </div>
+          <div class="slidesEncarte j3">
+            <img src="img/IMG3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <img src="img/row.png" id="afterSlide" class="botoesEncarte"/>
+      <img src="img/row.png" id="beforeSlide" class="botoesEncarte" />
+      <div id="slidePage">
+        <div class="p p1"></div>
+        <div class="p p2"></div>
+        <div class="p p3"></div>
+      </div>
+    </section>
+    <section class="interPromo" id="interFrutas">
+      <div>
+        <h3 data-show="growUp">Segunda e Terça</h3>
+        <h1 data-show="growUp">InterFrutas</h1>
+        <p data-show="growUp">Frutas, Verduras e Legumes</p>
+        <p data-show="growUp">
+          Esses dias de feira são dias de Hortifruti no Cidade! Corra para
+          aproveitar as promoções e abastecer sua geladeira com tudo que você
+          precisa para uma alimentação natural e saudável.
+        </p>
+      </div>
+      <img data-show="growUp" src="img/1.png" alt="" />
+      <img data-show="growUp" src="img/divisor.png" alt="" id="divisor" />
+    </section>
+    <section class="interPromo" id="interCarnes">
+      <div>
+        <h3 data-show="growUp">Quarta e Quinta</h3>
+        <h1 data-show="growUp">InterCarnes</h1>
+        <p data-show="growUp">Frutas, Verduras e Legumes</p>
+        <p data-show="growUp">
+          Se vai planejar aquele churrasco pro final de semana já sabe né,
+          referência de carne de qualidade é Cidade! Então aproveita que Quarta
+          e Quinta temos promoções, não fique de fora e aproveite!
+        </p>
+      </div>
+      <img data-show="growUp" src="img/meaticon.png" alt="" />
+    </section>
+    <section id="servicos">
+      <div class="servico" data-show="left">
+        <h3>Nós levamos até você</h3>
+        <div>
+          <p>
+            Não consegue levar as compras? O Cidade resolve! Nas compras a
+            partir de R$30 o Cidade faz frete grátis.
+          </p>
+          <img src="img/delivery.png" alt="" />
+        </div>
+      </div>
+      <div class="servico" data-show="right">
+        <h3>Peça pelo whatsapp</h3>
+        <div>
+          <p>
+            Não quer sair de casa? Em compras a partir de R$30 você pode fazer o
+            pedido pelo nosso whatsapp.
+          </p>
+          <img src="img/smartphone.png" alt="" />
+          <p><a href="https://wa.me/558591848353">Fazer pedido</a></p>
+        </div>
+      </div>
+      <div class="servico" data-show="left">
+        <h3>Pague seus boletos aqui</h3>
+        <div>
+          <p>
+            Evite filas em lotéricas. <br />
+            No cidade você pode fazer o pagamento das suas contas e não cobramos
+            tarifa 😉
+          </p>
+          <img src="img/bill.png" alt="" />
+        </div>
+      </div>
+      <div id="botaoInfo">Avisos</div>
+      <div>
+        <div id="informacoes">
+          <h3 class="h3">HORÁRIO DE PAGAMENTO DE CONTAS</h3>
+          <p>SEGUNDA À QUINTA</p>
+          <p>DAS 07H ÀS 17H</p>
+          <div id="divider"></div>
+          <h3 class="h3">HORÁRIO DE ATENDIMENTO DE PEDIDOS NO WHATSAPP</h3>
+          <p>SEGUNDA À SÁBADO</p>
+          <p>DAS 8H ÀS 20H</p>
+          <h3 id="avisos">AVISOS IMPORTANTES</h3>
+          <ul>
+            <li>Não fazemos recarga de celular</li>
+            <li>Não vendemos cigarros</li>
+            <li>Não disponibilizamos wifi dentro da loja</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="banco24h">
+      <div id="background"></div>
+      <div>
+        <h3>Aqui tem banco24h</h3>
+        <p>
+          Precisando consultar o saldo ou fazer um saque, pode vir no Cidade!
+          Temos disponível um Banco 24h. Assim você não precisa ir até agências.
+        </p>
+        <img data-show src="img/saque.png" alt="" />
+      </div>
+    </section>
+    <section id="formasDePagamento">
+      <h1 data-show="growUp">Aceitamos</h1>
+      <div id="opcoes">
+        <ul data-show="growUp">
+          <li><img src="img/cash.png" alt="" />Dinheiro</li>
+          <li><img src="img/debitcard.png" alt="" />Débito/Crédito</li>
+          <li><img src="img/VL.png" alt="" />Vale Alimentação</li>
+          <li><img src="img/QRcode.png" alt="" />Pix (QRCode)</li>
+        </ul>
+        <img data-show="right" src="img/pay.png" alt="" />
+      </div>
+     
+    </section>
+    <div id="slideBandeiras">
+      <div class="bandeiras slideBandeiras1">
+        <div class="bandeira">
+          <img src="img/alelo.png" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/greencard.png" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/hipercard.png" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/valecard.png" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/libercard.png" alt="" class="logoGrande" />
+        </div>
+        <div class="bandeira">
+          <img src="img/maestro.png" alt="" />
+        </div>
+      </div>
+      <div class="bandeiras slideBandeiras2">
+        <div class="bandeira">
+          <img src="img/vr.jpeg" alt="" class="logoGrande" />
+        </div>
+        <div class="bandeira">
+          <img src="img/visa.png" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/valeshop.png" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/ticket.png" alt="" class="logoGrande" />
+        </div>
+        <div class="bandeira">
+          <img src="img/sodexo.jpeg" alt="" />
+        </div>
+        <div class="bandeira">
+          <img src="img/policard.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <section id="comoChegar">
+      <h1>Como chegar?</h1>
+      <div id="endereco">
+        <img src="img/balloon.png" alt="" />
+        <div>
+          <p>Mercadinho Cidade</p>
+          <p>Rua Simao Santos, 315 - Paupina</p>
+        </div>
+      </div>
+      <div id="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1990.3794110189824!2d-38.492948!3d-3.8618496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7507b75064909%3A0xea86d0d2381c8688!2sMercadinho%20Cidade%20(S%C3%A3o%20Bento)!5e0!3m2!1spt-BR!2sbr!4v1660146697991!5m2!1spt-BR!2sbr"
+          width="0"
+          height="00"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade
+"
+        ></iframe>
+      </div>
+    </section>
+    <footer>
+      <div id="logosSociais">
+        <a href="https://m.facebook.com/100057364244605/about/"
+          ><img src="img/facebook.png" alt=""
+        /></a>
+        <a href="https://instagram.com/mercadinho_cidade?igshid=YmMyMTA2M2Y="
+          ><img src="img/instagram.png" alt=""
+        /></a>
+        <a href="https://wa.me/558585383529"
+          ><img src="img/whatsapp.png" alt=""
+        /></a>
+      </div>
+      <div id="telefone">
+        <p>(85) 93274-3283</p>
+      </div>
+      <p>Rua Simão Santos, 315 - Paupina, Fortaleza - CE 60875-020</p>
+    </footer>
+    <div id="btnFazerPedido" onclick="fazerPedido()"> <img src="order2.png"> Fazer Pedido</div>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

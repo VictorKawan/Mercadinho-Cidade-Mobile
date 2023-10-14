@@ -12,7 +12,8 @@ var alturaHeader = document.querySelector("header").clientHeight;
 // Ajusta a altura da página
 document.querySelector("#inicio").style.height =
   alturaAba - alturaHeader + "px";
-
+window.addEventListener('resize', function(){document.querySelector("#inicio").style.height =
+  alturaAba - alturaHeader + "px";})
 // Slide automático
 let count = 1;
 setInterval(() => {
@@ -32,7 +33,7 @@ function nextSlide() {
 // Ajusta a altura do Slide
 var slider = document.querySelector("#slide");
 slider.style.height = (alturaAba - alturaHeader) * 0.5 + "px";
-
+window.addEventListener('resize', function(){slider.style.height = (alturaAba - alturaHeader) * 0.5 + "px";})
 // Controle do slide do encarte
 let paginaEncarte = 1;
 const Encarte = document.querySelector("#sliderEncarte");

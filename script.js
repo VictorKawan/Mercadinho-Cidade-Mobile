@@ -1,6 +1,6 @@
 // Aviso
 if(window.screen.width > 500){
-  console.log('Esta página é responsiva apenas para dispositivos moveis') 
+  alert('Esta página é responsiva apenas para dispositivos moveis') 
 }
 
 // Altura da Aba
